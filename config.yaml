@@ -1,0 +1,11 @@
+server:
+  port: 5758
+  debug: true
+  host: "0.0.0.0"
+  model: "llama_api" # 可選值：openai、llama_api
+
+llamaa_server_api:
+  api_url:"http://192.168.35.131:5000/"
+
+api_keys:
+  openai_api_key: "your_openai_api_key_here"
